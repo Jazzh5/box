@@ -1,0 +1,95 @@
+.boyder{width:10.0rem;margin: 0 auto;background: #ffffd5;}
+.header{width: 100%;height: 1.715556rem;border-bottom: 0.02rem solid #7f7a7d;
+		background:url("img/1.png") 0 0 no-repeat;background-size: 100% 100%;margin: 0 auto;
+		/*text-align: center;*/}
+
+.header a{width: 0.24rem;height: 0.462222rem;background: url("img/2.png") 0 0 no-repeat;
+		 background-size: 100% 100%;float: left;margin-top: 0.951111rem;
+		 margin-left: 0.453333rem;}
+.header span{font-size: 0.539644rem;margin-left:3.2rem;margin-top: 0.924444rem;
+			display: inline-block;color: #565454;}
+/*********已获得宝箱小喇叭chu***********/
+.con_top{width: 100%;}		
+.contop_1{width: 8.684444rem;height: 1.164444rem;margin: 0 auto;}
+.top_get{font-size: 0.497778rem;line-height:1.164444rem;color: #e60012;float: left;}
+.top_time{float: right;line-height: 1.164444rem;}
+.top_time span{float: left;font-size:0.311111rem;color: #5e5859;}
+.top_time span:nth-child(1){display: inline-block;width: 1.315556rem;line-height: 1.164444rem;
+							text-align:right;background:url("img/3.png")  0 0.4rem
+							no-repeat;background-size: 0.471111rem 0.382222rem;}
+.top_time span:nth-child(2){width:3.182222rem;line-height: 1.164444rem;text-align: center;}
+.top_time span:nth-child(3){width: 0.72rem;line-height: 1.164444rem;text-align: right;
+							color: #e60012;font-size: 0.373333rem}
+/**************获得宝箱****************/
+.contop_2{width:8.684444rem;margin: 0 auto;overflow: hidden;}
+.contop_2 ul{overflow: hidden;}
+.contop_2 ul li{list-style: none;float: left;width:4.222222rem;height:1.688889rem;
+				margin-right: 0.239999rem;margin-bottom: 0.204444rem;background: #fa3530;
+				border-radius: 0.088889rem;}
+.contop_2 ul li:nth-child(2n){margin-right: 0;}
+.contop_2 ul li:nth-child(1) img{width: 0.995556rem;height: 1.2rem;margin-top: 0.266667rem;
+								margin-left: 0.231111rem;float: left;}
+.contop_2 ul li:nth-child(1) div{float: left;padding-left: 0.4rem;padding-top:0.186667rem;}
+.contop_2 ul li:nth-child(1) div p:nth-child(1){line-height: 0.568889rem;
+												font-size: 0.426667rem;color: #fff;}
+.contop_2 ul li:nth-child(1) div p:nth-child(2){line-height:0.844444rem;color: #fff;
+												font-size: 0.835556rem;}
+.contop_2 ul li:nth-child(1) div p:nth-child(2)::first-letter{font-size:0.426667rem;}
+.contop_2 ul li:nth-child(2) img{width: 0.995556rem;height: 0.968889rem;margin-top:0.382222rem;
+								margin-left:0.311111rem;float: left;}
+.contop_2 ul li:nth-child(2) div{float: left;padding-top:0.186667rem;padding-left: 0.204444rem;}
+.contop_2 ul li:nth-child(2) div p:nth-child(1){line-height:0.586667rem;font-size:0.426667rem;
+												color: #fff;}
+.contop_2 ul li:nth-child(2) div p:nth-child(2){line-height:0.808889rem;font-size:0.426667rem;	
+												color: #fff;}		
+.contop_2 ul li:nth-child(2) div p:nth-child(2)::before{content: "999";font-size: 0.835556rem;}
+.contop_2 ul li:nth-child(3) img{width: 1.244444rem;height: 1.244444rem;margin-top: 0.248889rem;
+								margin-left: 0.302222rem;float: left;}	
+.contop_2 ul li:nth-child(3) p{float: right;margin-top: 0.666667rem;margin-right: 0.711111rem;
+								font-size: 0.426667rem;color: #fff;}
+.contop_2 ul li:nth-child(4){width: 4.115556rem;height: 1.608889rem;
+							border: 0.044444rem dashed #f9a09e;background-color: transparent;
+							text-align: center;line-height:1.608889rem;color:#f9a09e;
+							font-size:0.435556rem }
+/**************开启宝箱部分****************/
+.con_con{width: 10.0rem;height: 4.284444rem;background: #f51829;overflow: hidden;
+		position: relative;}
+.con_left{width: 0.693333rem;height: 0.817778rem;position: absolute;left:0;top:50%;
+		margin-top: -0.408889rem;background: url("img/8.png") no-repeat;
+		background-size: 100% 100%;z-index: 2;}
+.con_right{width: 0.693333rem;height: 0.817778rem;position: absolute;right:0;top:50%;
+		margin-top: -0.408889rem;background: url("img/7.png") no-repeat;
+		background-size: 100% 100%;z-index: 2;}
+.con_prompt{color: #fff;font-size: 0.497778rem;position: absolute;
+			left: 0.693333rem;top:0.32rem;z-index: 2;}
+.con_prompt span{color: #fff000;font-size:0.725333rem;}
+.pagination{width: 100%;text-align: center;position: absolute;bottom: 0.16rem;z-index: 2;}
+.pagination span{display: inline-block;width: 0.222222rem;height: 0.222222rem;
+				background-color: #cdcbcb;margin-left: 0.16rem;border-radius: 50%;}
+.pagination span:nth-child(1){margin-left: 0;}			
+.pagination .span{background-color: #534c4c;}
+.pic{overflow: hidden;position: absolute;left:0;margin-top: 0;transition: all 1s;}
+.pic li{float: left;width:8.746667rem;height:4.284444rem;padding-left: 0.488889rem;
+		padding-right: 0.764444rem;}
+.pic li div{float: left;width:2.915556rem;height: 100%;position:relative;;}
+.pic li div img{width: 2.746667rem;bottom: 0.711111rem;position: absolute;}
+.pic li div span{display: inline-block;width: 0.56rem;height: 0.56rem;border-radius: 50%;
+				color: #f51829;background: #fff;text-align: center;line-height: 0.56rem;
+				font-weight: bold;font-size: 0.328889rem;position: absolute;right: 0;
+				top:1.44rem;}
+.pic li div span::first-letter{font-size: 0.266667rem;}
+/****************底部*********************/
+.footer{width: 8.595556rem;height: 6.72rem;margin: 0 auto;}
+.footer div{width: 100%;height: 1.244444rem;margin-bottom: 0.213333rem;background: #999;}
+.footer div:nth-child(1){height: 1.12rem;background: url("img/bac.png") no-repeat;
+						background-size:5.448889rem 1.12rem;line-height: 1.12rem;
+						margin-top: 0.177778rem;margin-bottom: 0.311111rem;}
+.footer div:nth-child(1) a{text-decoration: none;color: #fff;font-size: 0.568889rem;
+							margin-left:1.626667rem;}
+.footer div:nth-child(2){background: url("img/z1.png") no-repeat;background-size: 100%}
+.footer div:nth-child(3){background: url("img/z2.png") no-repeat;background-size: 100%}
+.footer div:nth-child(4){background: url("img/z3.png") no-repeat;background-size: 100%}
+.footer div img{width: 1.191111rem;height: 1.057778rem;float: right;margin-right: 0.248889rem;
+				margin-top: 0.106667rem;}
+.footer div a{text-decoration: none;font-size: 0.426667rem;line-height: 1.244444rem;
+			color: #fff;margin-left: 1.777778rem;}
