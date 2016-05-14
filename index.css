@@ -56,7 +56,8 @@
 		position: relative;}
 .con_left{width: 0.693333rem;height: 0.817778rem;position: absolute;left:0;top:50%;
 		margin-top: -0.408889rem;background: url("img/8.png") no-repeat;
-		background-size: 100% 100%;z-index: 2;}
+		background-size: 100% 100%;z-index: 2;display:none;}
+.con_hid{display:block;}
 .con_right{width: 0.693333rem;height: 0.817778rem;position: absolute;right:0;top:50%;
 		margin-top: -0.408889rem;background: url("img/7.png") no-repeat;
 		background-size: 100% 100%;z-index: 2;}
